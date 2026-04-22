@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'open_meteo' => [
+        'base_url' => env('OPEN_METEO_BASE_URL', 'https://api.open-meteo.com/v1'),
+        'geocoding_url' => env('OPEN_METEO_GEOCODING_URL', 'https://geocoding-api.open-meteo.com/v1'),
+        'air_quality_url' => env('OPEN_METEO_AIR_QUALITY_URL', 'https://air-quality-api.open-meteo.com/v1'),
+    ],
+
 ];
